@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+      <form action="#" method="post" enctype="multipart/form-data">
+    </div>
+    <div>
+        <!--зачем после value "/" HTML и XHTML-->
+        <p>Имя <input tabindex="1" placeholder="Иван" type="text" name="username" value=""/></p>
+    </div>
+    <div>
+        <p>Пароль <input tabindex="2" placeholder="Ivan123" type="password" name="userpass" value=""/></p>
+    </div>
+    <div>
+        <p>Номер Телефона <input tabindex="3" placeholder="375 (29) 123 45 67" type="userphone" name="tel" value=""/></p>
+    </div>
+    <div>
+        <!--отличия p и br-->
+        <p>Ваша почта <input tabindex="4" placeholder="Ivan@gmail.com" type="email" name="email" value=""/></p>
+    </div>
+    <br>
+    <div>
+        <p>Как Вы считаете кто должен был забрать топ 1 в 2020 году по диспиплине Counter-Strike Global Offensive? </p>
+            <p> <input tabindex="5" checked type="radio" name="CS:GO" value="S1mple"> Александр "S1mple" Костылев</p>
+            <p> <input tabindex="5" type="radio" name="CS:GO" value="ZywOo">Матье "ZywOo" Эрбо</p>
+            <p> <input tabindex="5" type="radio" name="CS:GO" value="device">Николай "device"Ридтц </p>
+            <p> <input tabindex="5" disabled type="radio" name="CS:GO" value="Sweex">Егор "Sweex" Козлов</p>
+    </div>
+    <br>
+    <div>
+        <p> Кого вы считаете наиболее перспективным в 2021 году?</p> 
+        <textarea tabindex="6" name="text"></textarea><br>
+    </div>
+    <div>
+        <p>Действие</p> 
+        <button tabindex="7" type="reset">Очистить</button>
+        <button tabindex="8" type="submit">Отправить</button>
+    </div>
+</form>
+</body>
+</html>
